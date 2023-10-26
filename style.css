@@ -354,7 +354,7 @@ main,
 }
 
 .light {
-    background: url("img/light-bg.jpg") no-repeat center;
+    background: url("img/light-bg2.jpg") no-repeat center;
     background-size: cover;
     border-radius: 30px;
     height: 969px;
@@ -850,7 +850,8 @@ main,
 }
 
 .person__txt {
-    display: -webkit-box;
+    max-width: 300px;
+    width: 100%;
     font-family: "roboto";
     -webkit-box-orient: vertical;
     font-size: 15px;
@@ -860,14 +861,14 @@ main,
     font-variant-numeric: lining-nums proportional-nums;
     height: fit-content;
     overflow: hidden;
-    text-overflow: ellipsis;
-    -webkit-line-clamp: 3;
+    
 }
 
 .person__like {
     position: absolute;
     bottom: -20px;
     right: 0px;
+    width: 47px;
 }
 
 .person__time {
@@ -924,6 +925,7 @@ main,
     position: absolute;
     left: -60px;
     bottom: 0;
+    border-radius: 0 50px 0 0;
 }
 
 .person__unic::before {
@@ -967,6 +969,10 @@ main,
     height: 225px;
     max-width: 202px;
     width: 100%;
+}
+
+.order__img-wrap {
+    height: 43px;
 }
 
 .order__img {
@@ -1170,7 +1176,7 @@ input::placeholder {
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 107.5%;
+    line-height: 120.5%;
 }
 
 .footer__line {
