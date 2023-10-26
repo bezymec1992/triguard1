@@ -871,6 +871,14 @@ main,
     width: 47px;
 }
 
+.person__like-one {
+    width: 43px;
+}
+
+.person__like-one1 {
+    width: 40px;
+}
+
 .person__time {
     display: flex;
     gap: 10px;
@@ -965,10 +973,20 @@ main,
     border-radius: 30px;
     background: #FFF;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 6px 14px 0px rgba(0, 0, 0, 0.10);
-    padding: 28px 14px 20px;
-    height: 225px;
     max-width: 202px;
     width: 100%;
+}
+
+.order__item:nth-child(1),
+.order__item:nth-child(2) {
+    min-height: 225px;
+    padding: 28px 14px 20px;
+}
+
+.order__item:nth-child(3),
+.order__item:nth-child(4) {
+    min-height: 204px;
+    padding: 24px 14px 20px;
 }
 
 .order__img-wrap {
@@ -996,6 +1014,12 @@ main,
     line-height: 21.13px;
     padding-bottom: 12px;
     padding-top: 29px;
+}
+
+.order__item:nth-child(3) .order__subtitle,
+.order__item:nth-child(4) .order__subtitle{
+    padding-top: 24px;
+    
 }
 
 .reducere2 {
