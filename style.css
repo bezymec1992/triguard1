@@ -490,7 +490,12 @@ main,
     padding-top: 60px;
 }
 
-.vs__btns img:first-child {
+.vs__btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 138px;
+    height: 56px;
     border-radius: 50px;
     border: 1px solid #FD7900;
     background: rgba(0, 0, 0, 0.33);
@@ -520,7 +525,7 @@ main,
     font-weight: 600;
     line-height: 21.13px;
 
-    height: 50px;
+    height: 52px;
 }
 
 .vs__item::before {
